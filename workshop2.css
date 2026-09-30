@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.article {
+  width: 360px;
+  padding: 16px;
+  background: #f8fafc;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 13px;
+  line-height: 1.8;
+}
+.photo {
+  float: left;
+  width: 96px;
+  height: 96px;
+  margin: 0 14px 8px 0;
+  background: #bfdbfe;
+  border: 2px solid #3b82f6;
+  border-radius: 8px;
+  font-size: 30px;
+  line-height: 92px;
+  text-align: center;
+}
+.headline {
+  margin: 0 0 8px 0;
+  font-size: 17px;
+  color: #1e293b;
+}
+.text {
+  margin: 0 0 8px 0;
+  color: #334155;
+}
+.footer {
+  clear: both;
+  margin-top: 8px;
+  padding: 8px 12px;
+  background: #e2e8f0;
+  border-radius: 6px;
+  font-size: 12px;
+  color: #64748b;
+  text-align: center;
+}
